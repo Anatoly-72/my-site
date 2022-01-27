@@ -28,6 +28,7 @@
   position: relative;
   display: flex;
   align-items: center;
+  overflow: hidden;
 }
 
 .header__title {
@@ -78,7 +79,6 @@
 .header__square-pic {
   height: 568px;
   width: 568px;
-  display: inline-block;
   position: absolute;
   top: 64px;
   right: 0;
